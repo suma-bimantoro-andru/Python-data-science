@@ -1,3 +1,5 @@
+import streamlit as st
+
 def enterProducts():
     buyingData = {}
     enterDetails = True

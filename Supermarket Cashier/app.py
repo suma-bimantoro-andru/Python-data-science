@@ -1,9 +1,6 @@
-from module import enterProducts
-from module import getPrice
-from module import getDiscount
-from module import makeBill
+import module as md
 
 
-buyingData= enterProducts()
+buyingData = md.enterProducts()
 membership=input('Enter Costumer Membership : ')
-makeBill(buyingData,membership)
+md.makeBill(buyingData,membership)
